@@ -4,6 +4,12 @@ Small Python control app for a Thermo / Variomag Teleshake orbital shaking stati
 
 The simple GUI mirrors the vendor diagnostics dialog: choose a COM port, RPM, stir direction, then start or stop the shaker.
 
+## Demo
+
+[![PyThermoVariomag controlling the shaker](docs/demo.gif)](docs/demo.mp4)
+
+*The GUI driving a Thermo / Variomag Teleshake over RS-232 — set the port, RPM, and stir direction, then start/stop. [Watch the full-quality MP4](docs/demo.mp4).*
+
 ## Features
 
 - Windows-friendly Tkinter GUI.
