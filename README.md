@@ -2,7 +2,7 @@
 
 Small Python control app for a Thermo / Variomag Teleshake orbital shaking station over RS-232 serial.
 
-This was built from captured vendor traffic for a Bravo "Orbital Shaking Station" accessory. The simple GUI mirrors the vendor diagnostics dialog: choose a COM port, RPM, stir direction, then start or stop the shaker.
+The simple GUI mirrors the vendor diagnostics dialog: choose a COM port, RPM, stir direction, then start or stop the shaker.
 
 ## Features
 
@@ -10,7 +10,7 @@ This was built from captured vendor traffic for a Bravo "Orbital Shaking Station
 - Uses `COM4` by default.
 - Uses the captured vendor serial settings: `9600 8N1`.
 - Supports RPM values from `100` to `2000`.
-- Supports the six stir directions exposed by the vendor tool.
+- Supports the six stir directions.
 - Sends the confirmed 6-byte binary telegram protocol.
 
 ## Install
@@ -81,4 +81,4 @@ stop
 
 ## Safety
 
-This controls real lab hardware. Keep the vendor software closed while using this app, verify the plate/deck area is clear, and use the `Emergency Stop` button if anything behaves unexpectedly.
+This controls real lab hardware. Verify the plate/deck area is clear.
